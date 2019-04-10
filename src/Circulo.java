@@ -64,13 +64,13 @@ public class Circulo {
 	}
 
 	/**
-	 * Imprimir. Muestra por pantalla cada atributo, así como
+	 * Imprimir. Muestra por pantalla en rojo cada atributo, así como
 	 * el area calculada.
 	 * */
 	public void imprimir() {
-		System.out.print(" x=" + x);
-		System.out.print(" y=" + y);
-		System.out.print(" r=" + radio);
-		System.out.print(" A=" + area());
+		System.err.print(" x=" + x);
+		System.err.print(" y=" + y);
+		System.err.print(" r=" + radio);
+		System.err.print(" A=" + area());
 	}
 }
